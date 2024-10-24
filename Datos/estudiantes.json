@@ -1,0 +1,147 @@
+{
+  "usuarios": [
+    {
+      "id": "0",
+      "correo": "admin@duocuc.cl",
+      "contrasena": "admin1234",
+      "nombre": "Admin",
+      "apellido": "Admin",
+      "rut": "11111111-1",
+      "carrera": "Admin",
+      "fotoPerfil": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "asignaturas": [
+        {
+          "nombreAsignatura": "Inglés Intermedio",
+          "seccion": "030D",
+          "imagen": "https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Roberto Becerra",
+          "fecha": "Lunes 10 de Noviembre 2024"
+        },
+        {
+          "nombreAsignatura": "Programación de Aplicaciones Móviles",
+          "seccion": "008D",
+          "imagen": "https://media.istockphoto.com/id/1413990965/es/foto/brillante-c%C3%B3digo-de-lenguaje-de-programaci%C3%B3n-python-en-una-superficie-digital-azul-con-una.jpg?s=612x612&w=0&k=20&c=qcrdtRpLMFmpnIDA8v9LYu9PaeMUgddegCz2e2kUK0I=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Viviana Poblete",
+          "fecha": "Miércoles 23 de Octubre 2024"
+        },
+        {
+          "nombreAsignatura": "Etica para el Trabajo",
+          "seccion": "027D",
+          "imagen": "https://media.istockphoto.com/id/1354606476/es/vector/principios-y-%C3%A9tica-empresarial-para-hacer-las-cosas-correctas-responsabilidad-social-o.jpg?s=612x612&w=0&k=20&c=fhhrfZx0ZvvLaE1_3P9u4W7rNsy-B9d6Egibx72S_Dw=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Diego Vargas",
+          "fecha": "Martes 5 de Noviembre 2024"
+        },
+        {
+          "nombreAsignatura": "Estadísica Descriptiva",
+          "seccion": "009D",
+          "imagen": "https://media.istockphoto.com/id/1144573725/es/foto/gr%C3%A1ficos-de-negocios-financieros-gr%C3%A1ficos-y-diagramas-ilustraci%C3%B3n-3d-renderizar.jpg?s=612x612&w=0&k=20&c=4zMj6gX1i8TrqMpLTmCJSLhNPnULpNTasZbuzRLXo5E=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Carla Cáceres",
+          "fecha": "Jueves 17 de Noviembre 2024"
+        }
+      ],
+      "justificativos": []
+    },
+    {
+      "id": "1",
+      "correo": "fav.perez@duocuc.cl",
+      "contrasena": "favperez1234",
+      "nombre": "Favio",
+      "apellido": "Perez",
+      "rut": "12345678-9",
+      "carrera": "Ing. Informática",
+      "fotoPerfil": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "asignaturas": [
+        {
+          "nombreAsignatura": "Inglés Intermedio",
+          "seccion": "030D",
+          "imagen": "https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Roberto Becerra",
+          "fecha": "Lunes 10 de Noviembre 2024"
+        },
+        {
+          "nombreAsignatura": "Programación de Aplicaciones Móviles",
+          "seccion": "008D",
+          "imagen": "https://media.istockphoto.com/id/1413990965/es/foto/brillante-c%C3%B3digo-de-lenguaje-de-programaci%C3%B3n-python-en-una-superficie-digital-azul-con-una.jpg?s=612x612&w=0&k=20&c=qcrdtRpLMFmpnIDA8v9LYu9PaeMUgddegCz2e2kUK0I=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Viviana Poblete",
+          "fecha": "Miércoles 23 de Octubre 2024"
+        },
+        {
+          "nombreAsignatura": "Etica para el Trabajo",
+          "seccion": "027D",
+          "imagen": "https://media.istockphoto.com/id/1354606476/es/vector/principios-y-%C3%A9tica-empresarial-para-hacer-las-cosas-correctas-responsabilidad-social-o.jpg?s=612x612&w=0&k=20&c=fhhrfZx0ZvvLaE1_3P9u4W7rNsy-B9d6Egibx72S_Dw=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Diego Vargas",
+          "fecha": "Martes 5 de Noviembre 2024"
+        },
+        {
+          "nombreAsignatura": "Estadísica Descriptiva",
+          "seccion": "009D",
+          "imagen": "https://media.istockphoto.com/id/1144573725/es/foto/gr%C3%A1ficos-de-negocios-financieros-gr%C3%A1ficos-y-diagramas-ilustraci%C3%B3n-3d-renderizar.jpg?s=612x612&w=0&k=20&c=4zMj6gX1i8TrqMpLTmCJSLhNPnULpNTasZbuzRLXo5E=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Carla Cáceres",
+          "fecha": "Jueves 17 de Noviembre 2024"
+        }
+      ],
+      "justificativos": [
+        {
+          "nombreAsignaturaJust": "Inglés Intermedio",
+          "seccionJust": "030D",
+          "imagenJust": "https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg",
+          "descripcionJust": "Lorem ipsum dolor sit amet.",
+          "nombreProfesorJust": "Roberto Becerra"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "correo": "am.figueroa@duocuc.cl",
+      "contrasena": "amfigueroa1234",
+      "nombre": "America",
+      "apellido": "Figueroa",
+      "rut": "23456789-0",
+      "carrera": "Ing. Informática",
+      "fotoPerfil": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "asignaturas": [
+        {
+          "nombreAsignatura": "Inglés Intermedio",
+          "seccion": "030D",
+          "imagen": "https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Roberto Becerra",
+          "fecha": "Lunes 10 de Noviembre 2024"
+        },
+        {
+          "nombreAsignatura": "Programación de Aplicaciones Móviles",
+          "seccion": "008D",
+          "imagen": "https://media.istockphoto.com/id/1413990965/es/foto/brillante-c%C3%B3digo-de-lenguaje-de-programaci%C3%B3n-python-en-una-superficie-digital-azul-con-una.jpg?s=612x612&w=0&k=20&c=qcrdtRpLMFmpnIDA8v9LYu9PaeMUgddegCz2e2kUK0I=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Viviana Poblete",
+          "fecha": "Miércoles 23 de Octubre 2024"
+        },
+        {
+          "nombreAsignatura": "Etica para el Trabajo",
+          "seccion": "027D",
+          "imagen": "https://media.istockphoto.com/id/1354606476/es/vector/principios-y-%C3%A9tica-empresarial-para-hacer-las-cosas-correctas-responsabilidad-social-o.jpg?s=612x612&w=0&k=20&c=fhhrfZx0ZvvLaE1_3P9u4W7rNsy-B9d6Egibx72S_Dw=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Diego Vargas",
+          "fecha": "Martes 5 de Noviembre 2024"
+        },
+        {
+          "nombreAsignatura": "Estadísica Descriptiva",
+          "seccion": "009D",
+          "imagen": "https://media.istockphoto.com/id/1144573725/es/foto/gr%C3%A1ficos-de-negocios-financieros-gr%C3%A1ficos-y-diagramas-ilustraci%C3%B3n-3d-renderizar.jpg?s=612x612&w=0&k=20&c=4zMj6gX1i8TrqMpLTmCJSLhNPnULpNTasZbuzRLXo5E=",
+          "descripcion": "Lorem ipsum dolor sit amet.",
+          "nombreProfesor": "Carla Cáceres",
+          "fecha": "Jueves 17 de Noviembre 2024"
+        }
+      ],
+      "justificativos": []
+    }
+  ]
+}

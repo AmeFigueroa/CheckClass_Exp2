@@ -1,0 +1,56 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-title>
+       Mi Perfil 
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="cerrarSesion()">
+        <ion-icon slot="end" name="log-out-outline" color="danger" style="padding: 15px;"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+
+    <ion-list *ngIf="usuario"> 
+      <img [src]="usuario.fotoPerfil" alt="{{ usuario.fotoPerfil }}" style="max-width: 100%; height: auto;">
+      <ion-item>
+        <ion-label position="stacked">Nombre</ion-label>
+        <ion-input value="{{ usuario.nombre }}" readonly></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Apellido</ion-label>
+        <ion-input value="{{ usuario.apellido }}" readonly></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Rut</ion-label>
+        <ion-input value="{{ usuario.rut }}" readonly></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input value="{{ usuario.correo }}" readonly></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Contraseña</ion-label>
+        <ion-input [type]="passwordType" [(ngModel)]="usuario.contrasena"></ion-input>
+        <ion-icon name="eye" slot="end" (click)="verContrasena()"></ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Carrera</ion-label>
+        <ion-input value="{{ usuario.carrera }}" readonly></ion-input>
+      </ion-item>
+    </ion-list>
+    
+    <div style="text-align: center;">
+      <ion-button (click)="editarPerfil()" shape="round" color="warning">Editar Información</ion-button>
+    </div>
+
+  </ion-card>
+</ion-content>
